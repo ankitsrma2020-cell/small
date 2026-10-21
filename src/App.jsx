@@ -35,7 +35,9 @@ function App() {
         {features.map((feature) => <FeatureCard key={feature.number} {...feature} />)}
       </section>
 
-    
+      <footer>Made with React <span>·</span> Ready for your next idea</footer>
+    </main>
+  )
 }
 
 export default App
